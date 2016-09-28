@@ -1,8 +1,8 @@
 {
   "name": "react-docgen-cli",
-  "version": "1.0.0",
-  "description": "",
-  "main": "generateMarkdown.js",
+  "version": "1.0.1",
+  "description": "cli to generate markdown docs from react components",
+  "main": "bin/gen.sh",
   "scripts": {
     "react-docs": "./node_modules/.bin/gulp react-docs",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,7 +16,9 @@
     "react-docgen",
     "markdown"
   ],
-  "author": "",
+  "bugs": "https://github.com/RakanNimer/react-docgen-cli/issues",
+  "repository": "https://github.com/RakanNimer/react-docgen-cli",
+  "author": "Rakan Nimer",
   "license": "ISC",
   "dependencies": {
     "gulp": "^3.9.1",
