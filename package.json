@@ -1,0 +1,29 @@
+{
+  "name": "react-docgen-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generateMarkdown.js",
+  "scripts": {
+    "react-docs": "./node_modules/.bin/gulp react-docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "docs",
+    "documentation",
+    "props",
+    "react-docgen",
+    "markdown"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-react-docs": "^0.1.2",
+    "yargs": "^5.0.0"
+  },
+  "bin": {
+    "react-docgen-cli": "bin/gen.sh"
+  }
+}
